@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Motoristas Global App",
+    "slug": "global-cisternas-motoristas",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/appIcon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/appIcon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.globalcisternas.driver",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.globalcisternas.driver",
+      "versionCode": 13,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/appIcon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBcPlR5DtV_FS3OLcd-lAkvVN7i78HumNY"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "owner": "evanderjr10",
+    "extra": {
+      "eas": {
+        "projectId": "7ae598ae-549f-478e-8494-61997f6eef69"
+      }
+    }
+  }
+}
